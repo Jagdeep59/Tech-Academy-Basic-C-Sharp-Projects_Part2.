@@ -1,0 +1,14 @@
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/bin/Debug/net10.0/Six-Part_Assignment
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/bin/Debug/net10.0/Six-Part_Assignment.deps.json
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/bin/Debug/net10.0/Six-Part_Assignment.runtimeconfig.json
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/bin/Debug/net10.0/Six-Part_Assignment.dll
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/bin/Debug/net10.0/Six-Part_Assignment.pdb
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.AssemblyInfoInputs.cache
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.AssemblyInfo.cs
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.csproj.CoreCompileInputs.cache
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.dll
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/refint/Six-Part_Assignment.dll
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.pdb
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/Six-Part_Assignment.genruntimeconfig.cache
+/Users/lakshayyadav/Downloads/Tech-Academy-Basic-C-Sharp-Projects_Part2.-main/Six-Part_Assignment/obj/Debug/net10.0/ref/Six-Part_Assignment.dll
