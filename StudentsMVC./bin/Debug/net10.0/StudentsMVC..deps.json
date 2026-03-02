@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "StudentsMVC./1.0.0": {
+        "runtime": {
+          "StudentsMVC..dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentsMVC./1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
