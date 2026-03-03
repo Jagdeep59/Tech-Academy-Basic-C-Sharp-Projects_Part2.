@@ -1,0 +1,304 @@
+/* ===== GENERAL STYLING ===== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    opacity: 1;
+    transition: 3s opacity;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05em;
+    background: #f5f6fa;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3%;
+    color: #222;
+    transition: transform 1s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: #0fbcf9;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #e84118;
+}
+
+img {
+    border-radius: 12px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    filter: grayscale(40%);
+    transition: 0.6s;
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+/* ===== NAVBAR ===== */
+
+.Navbar {
+    overflow: hidden;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    animation: moveNav 3s;
+}
+
+@keyframes moveNav {
+    from { left: -100vw; }
+    to { left: 0; }
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    animation: moveNavText 4s;
+}
+
+@keyframes moveNavText {
+    from { top: -100px; position: relative; }
+    to { top: 0; }
+}
+
+.Navbar a:hover {
+    background-color: #0fbcf9;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Navbar a.active {
+    background-color: #0fbcf9;
+}
+
+/* ===== VIDEO BACKGROUND ===== */
+
+#Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+@media screen and (max-width: 576px) {
+    #Typing_Video {
+        display: none;
+    }
+}
+
+/* ===== VIDEO TEXT ===== */
+
+.Video_Text {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20vh;
+    text-align: center;
+    animation: moveVideoText 4s;
+}
+
+@keyframes moveVideoText {
+    from { top: -100vh; position: relative; }
+    to { top: 0; }
+}
+
+/* ===== SLIDESHOW ===== */
+
+#Slideshow {
+    background: rgba(255,255,255,0.4);
+    padding: 50px 0;
+}
+
+#Slideshow_Container {
+    width: 40vw;
+    margin: auto;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.Slideshow_Images {
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+}
+
+.Previous, .Next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-size: 22px;
+    transition: 0.6s;
+}
+
+.Next {
+    right: 0;
+}
+
+.Previous:hover, .Next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    text-align: center;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+    background-color: #222;
+}
+
+/* ===== ROW / COLUMNS ===== */
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+
+.Column_1, .Column_2 {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.Column_1 {
+    background: #f2f2f2;
+}
+
+.Column_2 {
+    background: #e6e6e6;
+}
+
+@media screen and (max-width: 900px) {
+    .Column_1, .Column_2 {
+        width: 100%;
+    }
+}
+
+/* ===== CONTACT POPUP ===== */
+
+.Pop_Up_Button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 220px;
+    background: white;
+    border: 2px solid black;
+    padding: 12px;
+    cursor: pointer;
+    animation: movePopup 3s;
+}
+
+@keyframes movePopup {
+    from { right: -300px; }
+    to { right: 20px; }
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container input[type=text] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #eee;
+    border: none;
+}
+
+.form-container .btn {
+    background: white;
+    border: 2px solid black;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.form-container .btn:hover {
+    background: black;
+    color: white;
+}
+
+.form-container .cancel {
+    background: black;
+    color: white;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    padding: 30px;
+    background: #222;
+    color: white;
+    text-align: center;
+}
