@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Guru Business Group</title>
+    <link rel="stylesheet" href="stylesheet/portfolio.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="Navbar">
+    <a class="active" href="#Home">Home</a>
+    <a href="#Slideshow">Services</a>
+    <a href="#About">About</a>
+    <a href="#GitHub">GitHub</a>
+    <a onclick="openForm()" class="contact">Contact</a>
+</div>
+
+<!-- HOME / VIDEO -->
+<div id="Home">
+    <video autoplay muted loop id="Typing_Video">
+        <source src="images/Business.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="Video_Text">
+    <h1 class="white-text">Guru Business Group</h1>
+    <p class="center">
+        <q>Helping people achieve their dreams of immigration and better opportunities.</q><br><br>
+        Trusted Immigration & Visa Consultancy for Work, Study, and Permanent Residency.
+    </p>
+</div>
+
+<!-- SLIDESHOW -->
+<div id="Slideshow">
+    <div id="Slideshow_Container">
+
+        <div class="mySlides fade">
+            <img src="images/personal.jpg" class="Slideshow_Images">
+            <div class="text">Professional Immigration Guidance</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/HTML_CSS_and_JavaScript.jpeg" class="Slideshow_Images">
+            <div class="text">Work & Business Visa Services</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/Python.png" class="Slideshow_Images">
+            <div class="text">Student Visa & Career Counseling</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SQL_and_Database.jpg" class="Slideshow_Images">
+            <div class="text">Permanent Residency Solutions</div>
+        </div>
+
+        <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div class="Row" id="About">
+    <div class="Column_2">
+        <img src="images/personal.jpg">
+    </div>
+    <div class="Column_1">
+        <h1>About Us</h1>
+        <p>
+            Guru Business Group is a trusted immigration consultancy helping individuals and families
+            relocate globally. We simplify visa processes and provide expert guidance at every step.
+            <br><br>
+            Our mission is to help you build a better future abroad with confidence.
+        </p>
+    </div>
+</div>
+
+<!-- GITHUB -->
+<div class="Row" id="GitHub">
+    <div class="Column_1">
+        <h1>GitHub</h1>
+        <p class="center">
+            View our resources and projects:
+            <br><br>
+            <a href="https://github.com/Jagdeep59" target="_blank">Guru Business Group GitHub</a>
+        </p>
+    </div>
+    <div class="Column_2">
+        <a href="https://github.com/Jagdeep59" target="_blank">
+            <img src="images/GitHub.png">
+        </a>
+    </div>
+</div>
+
+<!-- CONTACT POPUP -->
+<button class="Pop_Up_Button" onclick="openForm()">CONTACT</button>
+
+<div class="form-popup" id="myForm">
+    <form class="form-container">
+        <h1>Contact Us</h1>
+
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Email" required>
+        <input type="text" placeholder="Message">
+
+        <button type="submit" class="btn">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</div>
+
+<footer>
+    <p class="center">© Guru Business Group</p>
+</footer>
+
+<script src="js/portfolio.js"></script>
+</body>
+</html>
