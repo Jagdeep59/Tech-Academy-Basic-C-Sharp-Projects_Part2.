@@ -18,3 +18,7 @@ A Razor Pages application built to demonstrate real-time server-side data render
 ### 3. Student Database (Code-First)
 A console application demonstrating the Entity Framework Code-First workflow.
 * **Key Features**: Automatically generates a database schema from C# classes and handles data entry for student records.
+
+
+
+also i have add my old portfolio website in this repo
